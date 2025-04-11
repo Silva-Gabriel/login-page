@@ -1,19 +1,22 @@
 <main>
-    <section>
-        <img src="https://images.pexels.com/photos/31356866/pexels-photo-31356866/free-photo-of-majestic-view-of-snow-capped-mount-fuji.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="150" alt="Nenhuma imagem a ser mostrada">
-        <h2></h2>
-        <button>teste</button>
-        <div>
-            <span>
-                or
-            </span>
+    <section class="form-section">
+        <img src="MoveIt_img.png" width="200" alt="Nenhuma imagem a ser mostrada">
+        <h2>{{ title }}</h2>
+        <ng-content></ng-content>
+        <div class="btn-wrapper">
+            <button class="btn-primary">{{ primaryBtnText }}</button>
+            <div class="divider">
+                <div></div>
+                <span>OR</span>
+                <div></div>
+            </div>
+            <button class="btn-secondary">{{ secondaryBtnText }}</button>
         </div>
-        <button>teste</button>
     </section>
-    <section>
+    <section class="main-section">
         <h1>
             You Should, MoveIt!
         </h1>
-        <img src="https://images.pexels.com/photos/31225680/pexels-photo-31225680/free-photo-of-outdoor-basketball-hoop-under-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        <img src="run_img.png" width="600" alt="">
     </section>
 </main>
